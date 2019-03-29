@@ -5,12 +5,10 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  var spy = string;
-  console.log(spy.toUpperCase())
+  console.log(string.toUpperCase())
 }
 function logWhisper(string) {
-  var spy = string;
-  console.log(spy.toLowerCase())
+  console.log(string.toLowerCase())
 }
  function sayHiToGrandma(string) {
   if (string.toUpperCase() === string)
